@@ -1,11 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as mt
 import sklearn.linear_model as lm
-df = pd.read_csv('Game.csv')
+df = pd.read_csv('time.csv')
 
-X= df[ ["LEVEL"] ]
-y= df[ [""
-"SCORE"] ]
+X= df[ ["time"] ]
+y= df[ ["speed"] ]
 
 print(X)
 print(y)
